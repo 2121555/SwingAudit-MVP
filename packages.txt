@@ -1,5 +1,1 @@
-/app.py
-/requirements.txt
-/runtime.txt
-/packages.txt   ← ✅ HERE
-/.streamlit/config.toml
+libgl1-mesa-glx
