@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
-import mediapipe as mp
 import numpy as np
+import pandas as pd
 
 st.set_page_config(page_title="SwingAudit MVP", layout="wide")
 st.title("🏌️ SwingAudit MVP – Real-Time Golf Swing Analyzer")
