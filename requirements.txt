@@ -1,3 +1,6 @@
-streamlit
-opencv-python-headless
+streamlit==1.26.0
+opencv-python-headless==4.8.0.76
+mediapipe==0.10.3
 numpy
+pandas
+Pillow
