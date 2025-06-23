@@ -2,6 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 import pandas as pd
+import mediapipe as mp  # ✅ THIS WAS MISSING
 
 st.set_page_config(page_title="SwingAudit MVP", layout="wide")
 st.title("🏌️ SwingAudit MVP – Real-Time Golf Swing Analyzer")
@@ -13,7 +14,6 @@ mp_drawing = mp.solutions.drawing_utils
 
 # OpenCV Video Capture
 cap = cv2.VideoCapture(0)
-
 stframe = st.empty()
 
 def calculate_angle(a, b, c):
